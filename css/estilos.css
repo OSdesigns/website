@@ -1,0 +1,358 @@
+
+html
+{
+	scroll-behavior: smooth;
+}
+[alt='www.000webhost.com']
+{
+	display: none;
+}
+*
+{
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.container
+{
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 95%;
+	max-width: 1500px;
+}
+.goup
+{
+    position: fixed;
+    left: 99%;
+    transform: translateX(-100%);
+    bottom: 10;
+    font-size: 60px;
+    z-index: 500;
+    visibility: visible;
+    opacity: 1;
+
+}
+.goup a
+{
+    color: white;
+    text-decoration: none;
+}
+.goup span
+{
+    background-color: rgba(1,134,85,.45);
+    border-radius:80px;
+    transition: 0.3s;
+    color: white;
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,.25);
+}
+.goup span:hover
+{
+    background-color: white;
+    color: rgb(1,134,85);
+    border-radius:10px;
+}
+/*----------------------------------header*/
+header
+{
+	width: 100%;
+	height: 80px;
+	background-color: #018655;
+}
+.logo
+{
+	margin: 15px 0 0 0px;
+	float: left;
+	position: relative;
+	display: flex;
+}
+.logo img
+{
+	width: 50px;
+	position: relative;
+}
+.logo a
+{
+	padding:  0 0 0 10px;
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	position: relative;
+	top: 7px;
+}
+.redes a
+{
+	text-decoration: none;
+}
+.redes
+{
+	float: right;
+	margin: 27px 0px 0 0;
+	color: white;
+	display: flex;
+	text-decoration: none;
+}
+.icon-twitter, .icon-pinterest
+{
+	padding: 0  0 0 30px;
+}
+.redes span
+{
+	font-size: 25px;
+	margin: 0 00px;
+	cursor: pointer;
+	transition: all ease-in 0.2s;
+	color: white;
+}
+.redes span:hover
+{
+	color: #e0e0e0;
+	font-size: 27px;
+}
+.subhead
+{
+	background-color: #006742;
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	box-shadow: 0px 15px 20px 1px rgba(0,0,0,.25);
+	z-index: 1;
+}
+.nav
+{
+	text-align: center;
+}
+.nav-item
+{
+	padding: 5px 30px;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	transition: all ease-in 0.2s;
+}
+.nav-item:hover
+{
+	background-color: white;
+	color: #00774c;
+}
+/*----------------------------------banner*/
+
+.banner
+{
+	position: relative;
+	background-image: url(file:///C:/Users/Oscar%20Semprun/Desktop/marie/img/bnr3.png);
+	background-repeat: no-repeat;
+	background-size: 125%;
+	background-position: 0 -200px;
+	width: 100%;
+	height: 400px;
+}
+.bnr-txt
+{
+	width: 600px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-65%);
+	margin: 0 0 0 50px;
+}
+.bnr-txt h1
+{
+	color: #018655;
+	font-size: 40px;
+}
+.bnr-txt h3
+{
+	color: #006742;
+	font-size: 23px;
+	font-weight: 400;
+}
+.bnr-txt a
+{
+	font-size: 25px;
+	font-weight: 600;
+	transition: all ease-in 0.3s;
+	color: #018655;
+	text-decoration: none;
+	position: relative;
+	transform: translateY(-50px;);
+	padding: 5px 10px;
+	top: 20px;
+	border: 4px solid #018655;
+	border-radius: 30px;
+}
+.bnr-txt a:hover
+{
+	border: 4px solid #018655;
+	border-radius: 10px;
+	color: white;
+	background-color: #018655;
+}
+/*--------------------------------------------productos*/
+.chicos h2
+{
+	color: white;
+}
+.chicos h3
+{
+	background-color: white;
+	color: #018655;
+}
+.chicos
+{
+	background-color: #018655;
+}
+.sect-tit
+{
+	font-size: 35px;
+	text-align: center;
+	padding: 50px 0;
+	color: #018655;
+}
+#a
+{
+	background-image: url(file:///C:/Users/Oscar%20Semprun/Desktop/marie/img/prod/1.jpg);
+	background-size: cover;
+}
+#b
+{
+	background-image: url(file:///C:/Users/Oscar%20Semprun/Desktop/marie/img/prod/2.jpg);
+	background-size: cover;
+}
+#c
+{
+	background-image: url(file:///C:/Users/Oscar%20Semprun/Desktop/marie/img/prod/3.jpg);
+	background-size: cover;
+}
+#d
+{
+	background-image: url(file:///C:/Users/Oscar%20Semprun/Desktop/marie/img/prod/4.jpeg);
+	background-size: cover;
+}
+#e
+{
+	background-image: url(file:///C:/Users/Oscar%20Semprun/Desktop/marie/img/prod/5.jpg);
+	background-size: cover;
+}
+#f
+{
+	background-image: url(file:///C:/Users/Oscar%20Semprun/Desktop/marie/img/prod/6.jpg);
+	background-size: cover;
+}
+#g
+{
+	background-image: url(file:///C:/Users/Oscar%20Semprun/Desktop/marie/img/prod/7.jpg);
+	background-size: cover;
+}
+#h
+{
+	background-image: url(file:///C:/Users/Oscar%20Semprun/Desktop/marie/img/prod/8.jpg);
+	background-size: cover;
+}
+#i
+{
+	background-image: url(file:///C:/Users/Oscar%20Semprun/Desktop/marie/img/prod/9.jpg);
+	background-size: cover;
+}
+.prod
+{
+	display: inline-block;
+	text-align: center;
+	margin: 0 70px 50px;
+	cursor: pointer;
+	transition: all ease-in 0.2s;
+}
+.prod:hover
+{
+	box-shadow: 0px 0px 30px 1px rgba(0,0,0,.3);
+}
+.cards
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.foto
+{
+	width: 280px;
+	height: 300px;
+	position: relative;
+}
+.prod-name
+{
+	position: relative;
+	color: white;
+	font-size: 25px;
+	padding: 10px 0;
+	background-color: #018655;
+}
+
+/*------------------------------------------------------footer*/
+footer .container
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 60px 0 20px;
+}
+footer
+{
+	background-color: #006742;
+	width: 100%;
+}
+.redes-fut span
+{
+	font-size: 15px;
+	padding: 0px;
+}
+.redes-fut a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+}
+.redes-fut h4
+{
+	font-size: 23px;
+	color: white;
+}
+.redes-fut
+{
+	min-width: 300px;
+	width: 33%;
+	display: block;
+}
+.copy
+{
+	min-width: 300px;
+	width: 33%;
+	font-size: 16px;
+	text-align: center;
+	color: white;
+	font-weight: 500;
+}
+.contacto
+{
+	min-width: 300px;
+	width: 33%;
+	text-align: right;
+}
+.contacto h4
+{
+	font-size: 23px;
+	color: white;
+}
+.contacto a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+}
