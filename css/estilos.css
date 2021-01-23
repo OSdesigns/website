@@ -147,7 +147,7 @@ header
 .banner
 {
 	position: relative;
-	background-image: url(https://creacionesmarie.000webhostapp.com/img/bnr3.png);
+	background-image: url(https://github.com/OSdesigns/website/blob/main/img/bnr3.png);
 	background-repeat: no-repeat;
 	background-size: 125%;
 	background-position: 0 -200px;
@@ -217,7 +217,7 @@ header
 }
 #a
 {
-	background-image: url(https://github.com/OSdesigns/website/blob/main/img/prod/1.jpg);
+	background-image: url(img/prod/1.jpg);
 	background-size: cover;
 }
 #b
